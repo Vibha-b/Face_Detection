@@ -1,4 +1,7 @@
 # Face_Detection
 
-OpenCV- library
+A simple python application
+
+OpenCV library
+
 HaarCascade Algorithm
