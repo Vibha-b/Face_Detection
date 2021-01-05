@@ -13,6 +13,10 @@ webcam = cv2.VideoCapture(0)
 while True:
     # Read current time frame
     successful_frame_read, frame = webcam.read()
+    
+    # If there's an error,abort
+    if not successful_frame_read:
+        break
 
     # Must convert to grayscale
     # cvtColor() : convert an image from one color space to another
