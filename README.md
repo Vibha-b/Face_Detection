@@ -1,9 +1,8 @@
-# Face_Detection
+# Face_Smile_Detection
 
-A simple python application
+### Using the Haarcascade Algorithm
 
-OpenCV library
+OpenCV-python
 
 trained dataset - haarcascade_frontalface_default.xml
-
-HaarCascade Algorithm
+trained dataset - haarcascade_smile.xml
